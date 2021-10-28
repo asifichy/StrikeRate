@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main()
+{
+    float strikeRate;
+    float score, ball;
+
+    printf("Enter Score: ");
+    scanf("%d", &score);
+
+    printf("Enter total ball faced: ");
+    scanf("%d", &ball);
+
+    strikeRate = (score/ball)*100;
+
+    printf("The strike rate of a batsman is: %.2f", strikeRate);
+
+    return 0;
+}
